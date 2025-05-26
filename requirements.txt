@@ -1,0 +1,32 @@
+# Generated on 2025-05-26 22:32:26
+# Hand Gesture Recognition Project Requirements
+# Main model: XGBoost
+# Auto-generated with latest package versions
+
+# Computer Vision
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+opencv-python==4.11.0.86
+pillow==11.2.1
+
+# Machine Learning
+mlflow-skinny==2.22.0
+mlflow==2.22.0
+scikit-learn==1.6.1
+xgboost==3.0.2
+
+# Data Science
+matplotlib==3.10.3
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+seaborn==0.13.2
+
+# Dependencies
+Flask==3.1.1
+Jinja2==3.1.6
+click==8.2.1
+joblib==1.5.1
+protobuf==4.25.7
+threadpoolctl==3.6.0
+

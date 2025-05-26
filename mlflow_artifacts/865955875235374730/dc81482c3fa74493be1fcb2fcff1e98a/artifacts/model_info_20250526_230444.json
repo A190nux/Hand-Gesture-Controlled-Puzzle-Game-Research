@@ -1,0 +1,38 @@
+{
+  "model_type": "XGBoost",
+  "model_file": "xgboost_model_20250526_230444.pkl",
+  "encoder_file": "label_encoder_20250526_230444.pkl",
+  "classes_file": "class_names_20250526_230444.json",
+  "num_classes": 18,
+  "class_names": [
+    "call",
+    "dislike",
+    "fist",
+    "four",
+    "like",
+    "mute",
+    "ok",
+    "one",
+    "palm",
+    "peace",
+    "peace_inverted",
+    "rock",
+    "stop",
+    "stop_inverted",
+    "three",
+    "three2",
+    "two_up",
+    "two_up_inverted"
+  ],
+  "model_params": {
+    "colsample_bytree": 1.0,
+    "learning_rate": 0.2,
+    "max_depth": 7,
+    "n_estimators": 200,
+    "subsample": 0.8,
+    "tree_method": "hist"
+  },
+  "mlflow_run_id": "dc81482c3fa74493be1fcb2fcff1e98a",
+  "timestamp": "20250526_230444",
+  "preprocessing": "custom_scaling_wrist_centered"
+}
